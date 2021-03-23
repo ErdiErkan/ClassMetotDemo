@@ -15,5 +15,13 @@ namespace ClassMetotDemo
         {
             Console.WriteLine("Tebrikler Müşteri TcNo Silme İşmeniniz Gerçekleşti : " + customer.TcNo);
         }
+        
+        public void GetAll(Customers [] customer)
+        {
+            foreach (var custo in customer)
+            {
+                Console.WriteLine(custo.Ad + " " + custo.Soyad + " " + custo.TcNo + " " + custo.DogumYeri);
+            }
+        }
     }
 }
