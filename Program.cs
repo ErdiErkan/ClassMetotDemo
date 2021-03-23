@@ -46,6 +46,10 @@ namespace ClassMetotDemo
                 Console.WriteLine(custom.Ad);
             }
             Console.WriteLine("Müşteriler Başarılı Şekilde Sıralandı");
+            
+            Console.WriteLine("------------------------------------------");
+
+            customerManager.GetAll(customers);
         }
     }
 }
